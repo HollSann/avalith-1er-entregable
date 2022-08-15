@@ -1,6 +1,6 @@
 const getDate = ((_req, _res, next) => {
     const date = new Date()
-    console.log(`Fecha y Hora de la petición: ${date}`)
+    console.log(`Request received at: ${date}`)
     next()
 })
 
